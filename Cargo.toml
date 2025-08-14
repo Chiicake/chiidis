@@ -1,6 +1,13 @@
+bin = [
+    { name = "example", path = "example/hello.rs" },
+    { name = "server", path = "src/main.rs" }
+]
+
 [package]
 name = "chiidis"
 version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+tokio = { version = "1", features = ["full"] }
+mini-redis = "0.4"
