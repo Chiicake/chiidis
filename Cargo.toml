@@ -1,6 +1,6 @@
 bin = [
     { name = "example", path = "example/hello.rs" },
-    { name = "server", path = "src/main.rs" }
+    { name = "server", path = "src/bin/server.rs" }
 ]
 
 [package]
