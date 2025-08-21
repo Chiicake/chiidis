@@ -1,5 +1,3 @@
-mod thread_pool;
-
 use std::collections::HashMap;
 use std::sync::{Arc, Mutex};
 use bytes::Bytes;
